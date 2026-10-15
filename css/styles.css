@@ -58,16 +58,22 @@
   --font-main: "Inter", sans-serif;
 
   /* Texto */
-  --color-text-heading: #111111;   /* nombre, títulos de sección y de puesto */
-  --color-text-body: #555555;      /* párrafos, subtítulo, ubicación */
-  --color-text-meta: #6d6d6d;      /* fechas: información secundaria */
+  --color-text-heading: #111111;
+  /* nombre, títulos de sección y de puesto */
+  --color-text-body: #555555;
+  /* párrafos, subtítulo, ubicación */
+  --color-text-meta: #6d6d6d;
+  /* fechas: información secundaria */
 
   /* Superficies */
-  --color-bg-page: #ffffff;        /* fondo de la página */
-  --color-bg-tag: #f6f6f6;         /* fondo de la píldora "website.com" */
+  --color-bg-page: #ffffff;
+  /* fondo de la página */
+  --color-bg-tag: #f6f6f6;
+  /* fondo de la píldora "website.com" */
 
   /* Bordes */
-  --color-border: #e5e5e5;         /* marco de las imágenes */
+  --color-border: #e5e5e5;
+  /* marco de las imágenes */
 }
 
 * {
@@ -106,7 +112,7 @@ body {
   margin-left: 1rem;
 }
 
-.profile__data > * {
+.profile__data>* {
   margin-bottom: 0.2rem;
 }
 
@@ -211,22 +217,50 @@ body {
     flex-direction: row;
   }
 }
+
 .body-card {
   display: block;
-  max-width: 320px;
+  max-width: 220px;
   border: 1px solid #e5e5e5;
-  border-radius: 8px;
-  overflow: hidden;          
+  border-radius: 13px;
+  overflow: hidden;
   text-decoration: none;
   color: inherit;
   margin-top: 12px;
   align-items: flex-start;
-  padding-left:115px;
   box-sizing: border-box;
+  padding: 0px;
+  margin-left: 110px;
 }
 
+.body-card__image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 220px;
+  height: 90px;
+}
 
-
+.body-card__content {
+  display: flex flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  padding: 10px 20px;
+  font-style: normal;
+}
+.body-card__title {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  color: var(--color-text-heading);
+}
+.body-card__subtitle {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.8;
+  color: var(--color-text-body);
 }
 
 @media (min-width: 768px) {
@@ -234,5 +268,3 @@ body {
     flex-direction: row;
   }
 }
-
-  
