@@ -211,3 +211,28 @@ body {
     flex-direction: row;
   }
 }
+.body-card {
+  display: block;
+  max-width: 320px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;          
+  text-decoration: none;
+  color: inherit;
+  margin-top: 12px;
+  align-items: flex-start;
+  padding-left:115px;
+  box-sizing: border-box;
+}
+
+
+
+}
+
+@media (min-width: 768px) {
+  .body-card {
+    flex-direction: row;
+  }
+}
+
+  
