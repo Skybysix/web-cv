@@ -228,7 +228,7 @@ body {
 .body-card {
   display: block;
   max-width: 220px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--color-border);
   border-radius: 13px;
   overflow: hidden;
   text-decoration: none;
@@ -237,7 +237,7 @@ body {
   align-items: flex-start;
   box-sizing: border-box;
   padding: 0px;
-  margin-left: 110px;
+  margin-left: 7rem;
   transition: transform 0.3s
 }
 
